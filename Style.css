@@ -1,0 +1,44 @@
+#mainPage 
+{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav article sale"
+    "footer footer footer";
+    grid-template-rows: 100px 1fr 60px;
+    grid-template-columns: 20% 1fr 15%;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
+}
+header, footer, article, nav, div  
+{
+    padding: 20px;
+    background: rgb(255, 255, 255);
+}
+#pageHeader 
+{
+    grid-area: header;
+    background: rgb(182, 108, 108);
+}
+#pageFooter 
+{
+    grid-area: footer;
+    background-color: royalblue;
+}
+#mainArticle 
+{ 
+    grid-area: article;
+    background-color: aqua;  
+}
+#mainNav 
+{ 
+    grid-area: nav; 
+    /* background-color: rgb(127, 102, 151); */
+}
+#siteSale 
+{ 
+    grid-area: sale; 
+    background-color: rgb(94, 150, 150);
+}
+
