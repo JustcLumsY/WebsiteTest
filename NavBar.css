@@ -1,14 +1,14 @@
 .sidenav {
-    height: 72%;
-    width: 0;
-    position: relative;
-    z-index: 1;
-    top: -56px;
-    left: -89px;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 94%;
+  width: 0;
+  position: relative;
+  z-index: 1;
+  top: -58px;
+  left: -89px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
   
   .sidenav a {
